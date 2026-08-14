@@ -28,13 +28,13 @@ Pada materi ini, terdapat beberapa kata kunci utama yang perlu dipahami fungsi d
 
 ## 📂 RESOURCES
 
-💡 **File demo tersedia di folder `contoh_kode/pertemuan_2/`**
+💡 **File demo tersedia di folder `contoh_kode/pertemuan_1/`**
 
 | **File** | **Deskripsi** |
 |---|---|
-| `src/pertemuan2_collection/Array.java` | Kelas demonstrasi penggunaan Array |
-| `src/pertemuan2_collection/ArrayList.java` | Kelas demonstrasi penggunaan ArrayList |
-| `src/pertemuan2_collection/PerbandinganArray.java` | Kelas demonstrasi perbedaan Array dan ArrayList |
+| `src/pertemuan1/Array.java` | Kelas demonstrasi penggunaan Array |
+| `src/pertemuan1/ArrayList.java` | Kelas demonstrasi penggunaan ArrayList |
+| `src/pertemuan1/PerbandinganArray.java` | Kelas demonstrasi perbedaan Array dan ArrayList
 
 ---
 
