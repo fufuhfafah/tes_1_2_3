@@ -141,12 +141,20 @@ System.out.println("Laskar Pelangi");
 ```
 
 ### Input
-Untuk menerima input data dari pengguna melalui keyboard, digunakan kelas Scanner yang diimpor dari paket java.util (import java.util.Scanner;).
+Untuk menerima data yang dimasukkan pengguna melalui keyboard, Java menyediakan class Scanner yang terdapat dalam package **`java.util`**. Agar dapat digunakan, Scanner perlu diimpor terlebih dahulu menggunakan:
+```java
+import java.util.Scanner;
+```
+Setelah diimpor, objek Scanner dibuat untuk membaca data yang dimasukkan pengguna melalui **`System.in`**:
+```java
+Scanner input = new Scanner(System.in);
+```
+**`System.in`** digunakan sebagai sumber input dari keyboard. Selanjutnya, method pada Scanner digunakan sesuai dengan jenis data yang ingin dibaca.
 
 Beberapa fungsi pembacaan data yang sering digunakan pada Scanner:
-- nextLine() → membaca input berupa teks atau kalimat (contoh: judul buku, nama peminjam).
-- nextInt() → membaca input berupa angka bulat (contoh: jumlah halaman, stok buku).
-- nextDouble() → membaca input berupa angka desimal (contoh: harga buku, nilai IPK).
+- **`nextLine()`** → membaca input berupa teks atau kalimat (contoh: judul buku, nama peminjam).
+- **`nextInt()`** → membaca input berupa angka bulat (contoh: jumlah halaman, stok buku).
+- **`nextDouble()`** → membaca input berupa angka desimal (contoh: harga buku, nilai IPK).
 
 ```java
 import java.util.Scanner;
