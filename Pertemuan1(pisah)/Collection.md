@@ -97,17 +97,6 @@ public class ContohArray {
 }
 ```
 
-**Hasil Program:**
-==========================================
-     CONTOH 1: ARRAY KONVENSIONAL
-==========================================
-Kapasitas/Ukuran Array : 3
-------------------------------------------
-Daftar Buku di Array:
-Indeks ke-0 : Pemrograman Java
-Indeks ke-1 : Struktur Data
-Indeks ke-2 : Basis Data
-
 * **Membuat Array:**
 ```java
 String[] daftarBuku = new String[3];
@@ -173,18 +162,6 @@ public class ContohArrayList {
     }
 }
 ```
-
-**Hasil Program:**
-==========================================
-        CONTOH 2: JAVA ARRAYLIST
-==========================================
-Jumlah Elemen Terisi   : 4
-------------------------------------------
-Daftar Buku di ArrayList:
-Indeks ke-0 : Pemrograman Java
-Indeks ke-1 : Struktur Data
-Indeks ke-2 : Basis Data
-Indeks ke-3 : Jaringan Komputer
 
 * **Membuat ArrayList**
 ```java
@@ -256,7 +233,14 @@ Pada kedua contoh tersebut, data dapat diakses berdasarkan index. Perbedaannya, 
 
 ---
 
-## Challenge Praktikan
+## 📚 Referensi
+
+- programiz., "Java Arrays". Tersedia di: [tautan](https://www.programiz.com/java-programming/arrays)
+- W3Schools, "Java Arrays". Tersedia di: [tautan](https://www.w3schools.com/java/java_arrays.asp)
+
+---
+
+## 🏆 Challenge Praktikan
 1. Buat program menggunakan Array untuk menyimpan 5 nama mahasiswa, kemudian tampilkan seluruh nama tersebut menggunakan perulangan.
 2. Buat program menggunakan ArrayList untuk menyimpan beberapa nama buku. Tambahkan minimal 4 buku menggunakan add(), kemudian tampilkan seluruh data dan jumlah buku menggunakan size().
 3. Buat program yang menggunakan Array dan ArrayList untuk menyimpan data yang sama. Tampilkan hasilnya dan jelaskan perbedaan cara menambahkan serta mengetahui jumlah data pada keduanya.

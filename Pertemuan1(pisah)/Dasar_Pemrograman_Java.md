@@ -49,7 +49,7 @@ Pada materi ini, terdapat kata kunci utama yang wajib Anda pahami fungsi dan pen
 - [ ] JDK terkonfigurasi dengan benar.
 - [ ] Mengetahui lokasi folder penyimpanan untuk menyimpan seluruh file project praktikum.
 
----
+--- 
 
 ## PART 1: Membuat Project di NetBeans
 1. Buka aplikasi **Apache NetBeans**.
@@ -117,15 +117,15 @@ public class Pertemuan1_DasarJava {
 }
 ```
 
-1. package pertemuan1_dasarjava;
+1. **`package pertemuan1_dasarjava;`**
 Menandakan nama folder atau kelompok tempat file Java ini disimpan.
-2. public class Pertemuan1_DasarJava
+2. **`public class Pertemuan1_DasarJava`**
 Mendefinisikan nama kelas utama. Nama kelas wajib sama persis dengan nama file .java (contoh: Pertemuan1_DasarJava.java).
-3. public static void main(String[] args)
+3. **`public static void main(String[] args)`**
 Fungsi utama yang akan dipanggil dan dijalankan pertama kali oleh Java saat program mulai dibuka.
-4. System.out.println(...)
+4. **`System.out.println(...)`**
 Perintah standar di Java untuk menampilkan teks atau nilai ke layar (output).
-5. Aturan Penamaan (Naming Convention)
+5. **`Aturan Penamaan (Naming Convention)`**
 Dalam penulisan kode Java, terdapat standar penamaan yang sangat disarankan agar kode rapi dan mudah dibaca oleh developer lain:
     - **PascalCase:** Digunakan untuk penamaan Kelas (Class). Huruf pertama di setiap kata ditulis dengan huruf besar tanpa spasi. Contoh: SistemPerpustakaan, PerpustakaanDigital, atau BukuTeks.
     - **camelCase:** Digunakan untuk penamaan Variabel dan Fungsi/Method. Kata pertama diawali dengan huruf kecil, sedangkan kata-kata berikutnya diawali dengan huruf besar. Contoh: judulBuku, jumlahHalaman, atau hitungDenda().
@@ -565,6 +565,12 @@ karena blok do dijalankan minimal satu kali sebelum kondisi diperiksa.
 | `for` | Digunakan ketika jumlah perulangan sudah diketahui | Sebelum perulangan |
 | `while` | Digunakan ketika perulangan bergantung pada suatu kondisi | Sebelum perulangan |
 | `do-while` | Digunakan ketika kode harus dijalankan minimal satu kali | Setelah perulangan |
+
+---
+
+## 📚 Referensi
+
+-
 
 ---
 
