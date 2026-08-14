@@ -570,11 +570,18 @@ karena blok do dijalankan minimal satu kali sebelum kondisi diperiksa.
 
 ## 📚 Referensi
 
--
+- Dwi Hastuti & Yusril Arief, "Seri Belajar Pemrograman: Pemrograman Dasar dengan Java". Tersedia di: [tautan](https://www.researchgate.net/publication/369020845_Seri_Belajar_Pemrograman_Pemrograman_Dasar_dengan_Java)
+- W3Schools, "Java Output / Print". Tersedia di: [tautan](https://www.w3schools.com/java/java_output.asp)
+- W3Schools, "Java Data Types". Tersedia di: [tautan](https://www.w3schools.com/java/java_data_types.asp)
+- W3Schools, "Java Operators". Tersedia di: [tautan](https://www.w3schools.com/java/java_operators.asp)
+- W3Schools, "Java If ... Else". Tersedia di: [tautan](https://www.w3schools.com/java/java_conditions.asp)
+- W3Schools, "Java Switch". Tersedia di: [tautan](https://www.w3schools.com/java/java_switch.asp)
+- W3Schools, "Java While Loop". Tersedia di: [tautan](https://www.w3schools.com/java/java_while_loop.asp)
+- W3Schools, "Java For Loop". Tersedia di: [tautan](https://www.w3schools.com/java/java_for_loop.asp)
 
 ---
 
-## Challenge Praktikan
+## 🏆 Challenge Praktikan
 1. Buat program untuk meminta input harga buku dan jumlah buku, kemudian hitung dan tampilkan total harga pembelian.
 2. Buat program yang meminta input nilai mahasiswa, kemudian tentukan keterangan nilai menggunakan if-else if:
     A) jika nilai ≥ 85
