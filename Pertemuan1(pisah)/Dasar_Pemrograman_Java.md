@@ -37,9 +37,9 @@ Pada materi ini, terdapat kata kunci utama yang wajib Anda pahami fungsi dan pen
 
 | **File** | **Deskripsi** |
 |---|---|
-| `src/pertemuan1_dasarjava/Pertemuan1_DasarJava.java` | Kelas utama demonstrasi struktur dasar program |
-| `src/pertemuan1_dasarjava/InputOuputBuku.java` | Kelas demonstrasi *Input/Output* menggunakan `Scanner` |
-| `src/pertemuan1_dasarjava/IntegrasiPerpustakaan.java` | Kelas integrasi operator, percabangan, dan perulangan |
+| `src/pertemuan1/Dasar_Pemrograman_Java.java` | Kelas utama demonstrasi struktur dasar program |
+| `src/pertemuan1/InputOuput.java` | Kelas demonstrasi *Input/Output* menggunakan `Scanner` |
+| `src/pertemuan1/IntegrasiPerpustakaan.java` | Kelas integrasi operator, percabangan, dan perulangan |
 
 ---
 
