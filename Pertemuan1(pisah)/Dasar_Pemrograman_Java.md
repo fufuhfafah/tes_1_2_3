@@ -38,8 +38,16 @@ Pada materi ini, terdapat kata kunci utama yang wajib Anda pahami fungsi dan pen
 | **File** | **Deskripsi** |
 |---|---|
 | `src/pertemuan1/Dasar_Pemrograman_Java.java` | Kelas utama demonstrasi struktur dasar program |
-| `src/pertemuan1/InputOuput.java` | Kelas demonstrasi *Input/Output* menggunakan `Scanner` |
-| `src/pertemuan1/IntegrasiPerpustakaan.java` | Kelas integrasi operator, percabangan, dan perulangan |
+| `src/pertemuan1/InputOutput.java` | Kelas demonstrasi *Input* & *Output* menggunakan `Scanner` & `SystemOutPrintln` |
+| `src/pertemuan1/Aritmatika.java` | Kelas operator aritmatika |
+| `src/pertemuan1/Relasi.java` | Kelas operator relasi (perbandingan) |
+| `src/pertemuan1/Logika.java` | Kelas operator logika |
+| `src/pertemuan1/IfElse.java` | Kelas percabangan IfElse |
+| `src/pertemuan1/IfElseIf.java` | Kelas percabangan IfElseIf |
+| `src/pertemuan1/Switch.java` | Kelas percabangan Switch |
+| `src/pertemuan1/For.java` | Kelas perulangan For |
+| `src/pertemuan1/While.java` | Kelas perulangan While |
+| `src/pertemuan1/Do-While.java` | Kelas perulangan Do-While |
 
 ---
 
@@ -53,14 +61,18 @@ Pada materi ini, terdapat kata kunci utama yang wajib Anda pahami fungsi dan pen
 
 ## PART 1: Membuat Project di NetBeans
 1. Buka aplikasi **Apache NetBeans**.
-![alt text](image-8.png)
-2. Pilih menu **File → New Project**, atau klik ikon **New Project** (ikon folder berwarna
+<img width="1600" height="900" alt="WhatsApp Image 2026-08-12 at 23 34 11" src="https://github.com/user-attachments/assets/7b9e7c9a-9ce9-4170-a93d-0a3e280346e5" />
+
+3. Pilih menu **File → New Project**, atau klik ikon **New Project** (ikon folder berwarna
 coklat), atau tekan **Ctrl + Shift + N**. Pada jendela yang muncul, pilih kategori **Java with Ant** dan
 jenis project **Java Application**, lalu klik Next.
-![alt text](image-9.png)
-3. Beri nama project (misal: `Pertemuan1_DasarJava`) dan tentukan lokasi penyimpanannya.
-![alt text](image-11.png)
-4. Klik **Finish** untuk membuat project baru..
+<img width="1600" height="900" alt="WhatsApp Image 2026-08-12 at 23 38 58" src="https://github.com/user-attachments/assets/c38be79a-19f8-404c-9148-373be5eea18a" />
+<img width="1600" height="900" alt="WhatsApp Image 2026-08-12 at 23 39 07" src="https://github.com/user-attachments/assets/1b2ed458-1a0f-4c77-8641-c594b13c926f" />
+
+4. Beri nama project (misal: `Pertemuan1_DasarJava`) dan tentukan lokasi penyimpanannya.
+<img width="1600" height="901" alt="WhatsApp Image 2026-08-15 at 09 08 44" src="https://github.com/user-attachments/assets/524ba1a6-0b18-4a9d-b135-937b38d03c65" />
+
+5. Klik **Finish** untuk membuat project baru..
 
 ---
 
@@ -105,6 +117,7 @@ Struktur dasar dari sebuah program Java terdiri dari sebuah kelas utama (main cl
 
 Perhatikan contoh kode program sistem perpustakaan berikut beserta penjelasannya:
 
+**src/pertemuan1/Dasar_Pemrograman_Java.java**
 ```java
 package pertemuan1_dasarjava;
     
@@ -142,13 +155,13 @@ System.out.println("Laskar Pelangi");
 
 ### Input
 Untuk menerima data yang dimasukkan pengguna melalui keyboard, Java menyediakan class Scanner yang terdapat dalam package **`java.util`**. Agar dapat digunakan, Scanner perlu diimpor terlebih dahulu menggunakan:
+
 ```java
 import java.util.Scanner;
-```
-Setelah diimpor, objek Scanner dibuat untuk membaca data yang dimasukkan pengguna melalui **`System.in`**:
-```java
 Scanner input = new Scanner(System.in);
 ```
+
+Setelah diimpor, objek Scanner dibuat untuk membaca data yang dimasukkan pengguna melalui **`System.in`**:
 **`System.in`** digunakan sebagai sumber input dari keyboard. Selanjutnya, method pada Scanner digunakan sesuai dengan jenis data yang ingin dibaca.
 
 Beberapa fungsi pembacaan data yang sering digunakan pada Scanner:
@@ -156,6 +169,7 @@ Beberapa fungsi pembacaan data yang sering digunakan pada Scanner:
 - **`nextInt()`** → membaca input berupa angka bulat (contoh: jumlah halaman, stok buku).
 - **`nextDouble()`** → membaca input berupa angka desimal (contoh: harga buku, nilai IPK).
 
+**src/pertemuan1/InputOutput.java**
 ```java
 import java.util.Scanner;
 
@@ -204,6 +218,8 @@ Operator aritmatika digunakan untuk melakukan perhitungan matematika terhadap ni
 | `%` | Modulus (Sisa Bagi) | `10 % 3` | `1` |
 
 Contoh kode:
+
+**src/Pertemuan1/Aritmatika.java**
 ```java
 public class Aritmatika {
     public static void main(String[] args) {
@@ -233,7 +249,10 @@ false → kondisi salah
 | `>=` | Lebih besar atau sama dengan | `5 >= 5` | `true` |
 | `<=` | Lebih kecil atau sama dengan | `3 <= 5` | `true` |
 
-Contoh kode:
+
+**Contoh kode:**
+
+**src/pertemuan1/Relasi.java**
 ```java
 public class Relasi {
     public static void main(String[] args) {
@@ -258,7 +277,9 @@ Operator logika digunakan untuk menggabungkan atau membalikkan kondisi boolean. 
 | `\|\|` | OR (Atau) | `(x > 3) \|\| (y < 10)` | `true` jika minimal satu kondisi benar |
 | `!` | NOT (Bukan) | `!(x > 3)` | Membalik nilai boolean |
 
-Contoh kode:
+**Contoh kode:**
+
+**src/pertemuan1/Logika.java**
 ```java
 public class Logika {
     public static void main(String[] args) {
@@ -297,6 +318,8 @@ if (kondisi) {
 ```
 
 **Contoh Program**
+
+**src/pertemuan1/IfElse.java**
 ```java
 public class IfElse {
     public static void main(String[] args) {
@@ -333,6 +356,8 @@ if (kondisi1) {
 ```
 
 **Contoh Program**
+
+**src/pertemuan1/IfElseIf.java**
 ```java
 public class IfElseIf {
     public static void main(String[] args) {
@@ -374,6 +399,8 @@ switch (variabel) {
 ```
 
 **Contoh Program**
+
+**src/pertemuan1/Switch.java**
 ```java
 public class Switch {
     public static void main(String[] args) {
@@ -434,6 +461,8 @@ for (inisialisasi; kondisi; increment/decrement) {
 ```
 
 **Contoh Program**
+
+**src/pertemuan1/For.java**
 ```java
 public class For {
     public static void main(String[] args) {
@@ -470,6 +499,8 @@ while (kondisi) {
 ```
 
 **Contoh Program**
+
+**src/pertemuan1/While.java**
 ```java
 public class While {
     public static void main(String[] args) {
@@ -510,6 +541,8 @@ do {
 ```
 
 **Contoh Program**
+
+**src/pertemuan1/Do-While.java**
 ```java
 public class DoWhile {
     public static void main(String[] args) {

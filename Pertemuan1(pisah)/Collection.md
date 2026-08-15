@@ -34,7 +34,6 @@ Pada materi ini, terdapat beberapa kata kunci utama yang perlu dipahami fungsi d
 |---|---|
 | `src/pertemuan1/Array.java` | Kelas demonstrasi penggunaan Array |
 | `src/pertemuan1/ArrayList.java` | Kelas demonstrasi penggunaan ArrayList |
-| `src/pertemuan1/PerbandinganArray.java` | Kelas demonstrasi perbedaan Array dan ArrayList
 
 ---
 
@@ -65,6 +64,7 @@ Ukuran Array ditentukan saat Array dibuat dan tidak dapat diubah setelahnya. Ind
 
 **Contoh Kode:**
 
+**src/pertemuan1/Array.java**
 ```java
 public class ContohArray {
     public static void main(String[] args) {
@@ -130,6 +130,8 @@ Berbeda dengan Array yang memiliki ukuran tetap, ukuran ArrayList dapat bertamba
 
 **Contoh Kode**
 
+
+**src/pertemuan1/ArrayList.java**
 ```java
 import java.util.ArrayList;
 
