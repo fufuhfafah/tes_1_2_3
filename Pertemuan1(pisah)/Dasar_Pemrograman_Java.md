@@ -145,8 +145,8 @@ Dalam penulisan kode Java, terdapat standar penamaan yang sangat disarankan agar
 
 ### Output
 Untuk menampilkan data atau teks ke layar konsol, digunakan perintah berikut:
-- System.out.println() → mencetak teks ke layar, lalu otomatis memindahkan kursor ke baris baru (newline).
-- System.out.print() → mencetak teks ke layar tanpa memindahkan kursor ke baris baru.
+- System.out.println() → mencetak teks ke layar, lalu otomatis berpindah ke baris berikutnya (newline).
+- System.out.print() → mencetak teks ke layar tanpa berpindah ke baris berikutnya.
 
 ```java
 System.out.print("Judul Buku: ");
